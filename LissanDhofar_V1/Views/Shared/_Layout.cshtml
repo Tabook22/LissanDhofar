@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ar-om" dir="rtl">
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <!--CSS-->
+    <!--Bootstrap-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.css">
+    <!-- Font-awesome.min css -->
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="~/Content/css/animate.min.css">
+    <link rel="stylesheet" href="~/Content/css/main.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="~/Content/css/responsive.css">
+    <!--Jquery-->
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <!-- Owl Carsousle -->
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <!--angular library-->
+    <script src="~/Scripts/angular.js"></script>
+    @*<script src="~/Scripts/angular-route.min.js"></script>*@
+    <script src="~/Scripts/angular-ui-router.min.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap.min.js"></script>
+    <!--customer javascript-->
+    <script src="~/SPA/client/myApp.js"></script>
+    <script src="~/SPA/client/homeController.js"></script>
+    <script src="~/SPA/client/articleController.js"></script>
+
+    <!-- Js -->
+    <script src="Content/js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="~/Content/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="~/Content/js/jquery.nav.js"></script>
+    <script src="~/Content/js/jquery.sticky.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/plugins.js"></script>
+    <script src="~/Content/js/wow.min.js"></script>
+    <script src="~/Content/js/main.js"></script>
+
+</head>
+<body ng-app="mainApp">
+    <!--
+    header-img start
+    ============================== -->
+    <section id="hero-area">
+        <img class="img-responsive" src="~/Content/images/header2.jpg" alt="">
+        <div class="block2">
+            <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="~/Content/images/author2.png" alt="cooker-img">
+            <h4 class="auth-block" d>
+                <span>أ.أحمد محاد المعشني</span> </br> المؤلف <span></span>
+            </h4>
+            @*<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+                معجم لسان ظفار أول معجم يوضع للغة الجبالية ولم يسبقه سوى معجم يتيم، وضعه البروفسور جنستون في بدايات ثمانينيات القرن الماضي باللغة الانجليزية لا يعلم بوجوده إلا قلة قليلة من أهل الاختصاص.
+                والمعجم الذي بين يدينا ثمرة سنوات من العمل الشاق المتواصل، قادني لإنجازه ونشره الحاجة الماسة إليه؛ سواء من جمهور العامة، أو من الباحثين والدارسين والمهتمين، وقبل هؤلاء وأولئك أبناء هذه اللغة أنفسهم، الذين تقطعت بأجيالهم الجديدة السُبل في معرفة بناء مفرداتها، وفهم الكثير من كلماتها؛ لتعريب ألم بألسنتهم، وتغريب غازٍ يحاول طمس لغتهم وبلبُلة لسانهم.
+
+            </p>*@
+            </div>
+</section>
+    <!--
+    Header start
+    ============================== -->
+    @{Html.RenderPartial("siteNav");}
+    <!-- header close -->
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+    <!--
+    footer  start
+    ============================= -->
+    @{Html.RenderPartial("siteFooter");}
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
