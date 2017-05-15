@@ -7,25 +7,24 @@
     <title>معجم لسان ظفار</title>
     <!--CSS-->
     <!--Bootstrap-->
-    <link href="spa/client/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="spa/client/public/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="spa/client/css/owl.carousel.css">
+    <link rel="stylesheet" href="spa/client/public/css/owl.carousel.css">
     <!-- Font-awesome.min css -->
-    <link rel="stylesheet" href="spa/client/css/font-awesome.min.css">
+    <link rel="stylesheet" href="spa/client/public/css/font-awesome.min.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="spa/client/css/animate.min.css">
-    <link rel="stylesheet" href="spa/client/css/main.css">
+    <link rel="stylesheet" href="spa/client/public/css/animate.min.css">
+    <link rel="stylesheet" href="spa/client/public/css/main.css">
     <!-- Responsive Stylesheet -->
-    <link rel="stylesheet" href="spa/client/css/responsive.css">
+    <link rel="stylesheet" href="spa/client/public/css/responsive.css">
     <!--Jquery-->
     <script src="../../../Scripts/jquery-1.10.2.min.js"></script>
     <script src="../../../Scripts/jquery-1.10.2.min.js"></script>
     <!-- Owl Carsousle -->
-    <script src="Content/js/owl.carousel.min.js"></script>
+    <script src="spa/client/public/js/owl.carousel.min.js"></script>
     <!--angular library-->
     <script src="../../../Scripts/angular.js"></script>
-    @*
-    <script src="../../../Scripts/angular-route.min.js"></script>*@
+    <!--<script src="../../../Scripts/angular-route.min.js"></script>-->
     <script src="../../../Scripts/angular-ui-router.min.js"></script>
     <script src="../../../Scripts/angular-ui/ui-bootstrap.min.js"></script>
     <!--customer javascript-->
@@ -37,12 +36,12 @@
     <script src="Content/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="spa/client/js/jquery.nav.js"></script>
-    <script src="spa/client/js/jquery.sticky.js"></script>
-    <script src="spa/client/js/bootstrap.min.js"></script>
-    <script src="spa/client/js/plugins.js"></script>
-    <script src="spa/client/js/wow.min.js"></script>
-    <script src="spa/client/js/main.js"></script>
+    <script src="spa/client/public/js/jquery.nav.js"></script>
+    <script src="spa/client/public/js/jquery.sticky.js"></script>
+    <script src="spa/client/public/js/bootstrap.min.js"></script>
+    <script src="spa/client/public/js/plugins.js"></script>
+    <script src="spa/client/public/js/wow.min.js"></script>
+    <script src="spa/client/public/js/main.js"></script>
 
 </head>
 <body ng-app="mainApp">
@@ -50,11 +49,11 @@
     header-img start
     ============================== -->
     <section id="hero-area">
-        <img class="img-responsive" src="spa/client/images/header2.jpg" alt="">
+        <img class="img-responsive" src="spa/client/public/images/header2.jpg" alt="">
         <div class="block2">
-            <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="spa/client/images/author2.png" alt="author-img">
+            <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="spa/client/public/images/author2.png" alt="author-img">
             <h4 class="auth-block" d>
-                <span>أ.أحمد محاد المعشني</span> <br/> المؤلف <span></span>
+                <a ui-sref="author" style="text-decoration:none;color:#fff;"><span>أ.أحمد محاد المعشني</span> <br /> المؤلف <span></span></a>
             </h4>
             <!--<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
                 معجم لسان ظفار أول معجم يوضع للغة الجبالية ولم يسبقه سوى معجم يتيم، وضعه البروفسور جنستون في بدايات ثمانينيات القرن الماضي باللغة الانجليزية لا يعلم بوجوده إلا قلة قليلة من أهل الاختصاص.
@@ -91,12 +90,12 @@
                                         <li><a href="#contact-us">إتصل بنا</a></li>
                                         <li><a href="#blog">متابعات</a></li>
                                         <li><a href="#voice">نطق الحروف </a></li>
-                                        <li><a href="#letters">حروف الجبالية</a></li>
+                                        <li><a ui-sref="letters">حروف الجبالية</a></li>
                                         <li><a href="#blog">مستخلصات من المعجم</a></li>
-                                        <li><a href="#blog">هذا المعجم</a></li>
-                                        <li><a href="#blog">لماذا الموقع</a></li>
-                                        <li><a href="#about-us">المؤلف</a></li>
-                                        <li><a href="#hero-area">الرئيسية</a></li>
+                                        <li><a ui-sref="dic">هذا المعجم</a></li>
+                                        <!--<li><a href="#blog">لماذا الموقع</a></li>-->
+                                        <li><a ui-sref="author">المؤلف</a></li>
+                                        <li><a ui-sref="home">الرئيسية</a></li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </div><!-- /.container-fluid -->

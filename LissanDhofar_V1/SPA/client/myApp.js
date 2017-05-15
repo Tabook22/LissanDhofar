@@ -12,13 +12,28 @@ var myApp; //this is important because if we put it inside the (function(){ var 
 
         $stateProvider
             .state('home', {
-                url: '/',
+                url: '/home',
                 templateUrl: '/SPA/client/views/home.html',
                 controller: 'homeCtrl'
             })
             .state('about', {
                 url: '/about',
                 templateUrl: '/SPA/client/views/partials/about.html',
+                controller: 'homeCtrl'
+            })
+            .state('author', {
+                url: '/author',
+                templateUrl: '/SPA/client/views/partials/author.html',
+                controller: 'homeCtrl'
+            })
+            .state('dic', {
+                url: '/dic',
+                templateUrl: '/SPA/client/views/partials/dic.html',
+                controller: 'homeCtrl'
+            })
+            .state('letters', {
+                url: '/letters',
+                templateUrl: '/SPA/client/views/partials/letter.html',
                 controller: 'homeCtrl'
             })
             .state('contact', {
