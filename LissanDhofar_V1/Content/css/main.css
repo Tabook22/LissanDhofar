@@ -275,7 +275,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     about-us Start
 --*/
 #about-us {
-  padding: 100px 0px;
+  padding: 10px 0px 100px 0;
   background: #F6F6F6;
 }
 #about-us .block {

@@ -1,0 +1,841 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" integrity="sha256-gaWb8m2IHSkoZnT23u/necREOC//MiCFtQukVUYMyuU=" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-bf92078463fbaccc99b6cbeb3f7d032866dbbe4d3977f7f47c3b403b8598dda8.css" integrity="sha256-v5IHhGP7rMyZtsvrP30DKGbbvk05d/f0fDtAO4WY3ag=" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>ng-embed/ng-embed.min.css at master · ritz078/ng-embed</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/5389035?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="ritz078/ng-embed" property="og:title" /><meta content="https://github.com/ritz078/ng-embed" property="og:url" /><meta content="ng-embed - An AngularJS filter/directive for embedding emojis, media, maps, tweets, code and services" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTY3MzQ4OTg0OmUxOWMyZWM0NTQzZDBiOGJiMTJlYjI5ZTJlNWI4M2I5YjlmNmJkYmUxNmFhYjBlN2ZiZmM3NGQ0Yjk3ZWE5ZDc=--ab2a4037b2b39929b83ec2a76cd7ba9b6d508bed">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="F524:166CC:E069:14ED0:591B3CD9" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="F524:166CC:E069:14ED0:591B3CD9" name="octolytics-dimension-request_id" /><meta content="15355988" name="octolytics-actor-id" /><meta content="Tabook22" name="octolytics-actor-login" /><meta content="99effd3aa277f3be254bcbc710e69518d7b9405772b2fc0b706dfbb1dd6b3b2e" name="octolytics-actor-hash" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="Tabook22">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="OTA1YThmMmQ3YTM2YWYxNDg4ZmUwMjNhNWVmYzIyYzU3OGE5Y2ZmNjdiNjFiM2RlZjAwMGI0NjZhN2E0Y2JmZHx7InJlbW90ZV9hZGRyZXNzIjoiODIuMTc4LjI0Mi4xOTgiLCJyZXF1ZXN0X2lkIjoiRjUyNDoxNjZDQzpFMDY5OjE0RUQwOjU5MUIzQ0Q5IiwidGltZXN0YW1wIjoxNDk0OTU3Mjc2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+
+  <meta name="html-safe-nonce" content="97f4d4dde6fccf4e7b6465c554b0c60b25c56021">
+
+  <meta http-equiv="x-pjax-version" content="859015c260899b1f5edac9cb8b799061">
+  
+
+    
+  <meta name="description" content="ng-embed - An AngularJS filter/directive for embedding emojis, media, maps, tweets, code and services">
+  <meta name="go-import" content="github.com/ritz078/ng-embed git https://github.com/ritz078/ng-embed.git">
+
+  <meta content="5389035" name="octolytics-dimension-user_id" /><meta content="ritz078" name="octolytics-dimension-user_login" /><meta content="32758301" name="octolytics-dimension-repository_id" /><meta content="ritz078/ng-embed" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="32758301" name="octolytics-dimension-repository_network_root_id" /><meta content="ritz078/ng-embed" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/ritz078/ng-embed/commits/master.atom" rel="alternate" title="Recent Commits to ng-embed:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/ritz078/ng-embed/blob/master/dist/ng-embed.min.css" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<div class="header" role="banner">
+  <div class="container clearfix">
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/search" class="js-site-search-form" data-scoped-search-url="/ritz078/ng-embed/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/ritz078/ng-embed/blob/master/dist/ng-embed.min.css" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+      <ul class="header-nav float-left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav float-right" id="user-links">
+  <li class="header-nav-item">
+    
+    <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s js-socket-channel js-notification-indicator " data-channel="notification-changed:15355988" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status "></span>
+        <svg aria-hidden="true" class="octicon octicon-bell float-left" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
+</a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="ritz078/ng-embed">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/ritz078/ng-embed/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="/Tabook22"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@Tabook22" class="avatar" src="https://avatars0.githubusercontent.com/u/15355988?v=3&amp;s=40" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">Tabook22</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/Tabook22" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="/Tabook22?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+          <a class="dropdown-item" href="/integrations" data-ga-click="Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ekgNIhnPQ7e1Tivrxf74A0ezovbtvAXjdfj4NIYQsheivXDz9+uJNHHLpCm3PAhJUjXWfWSPq2KafIIaQe8SlQ==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eLV+H9O1AJyu2UNboQuU0Alw0UJRJ8ncvy96Sczw3jygQAPOPZHKH2pczJnTyWSaHPalydgUZ11QqwBnCw9+vg==" /></div>
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+        Sign out
+      </button>
+</form>  </div>
+</div>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Mqlc2jEe/PIc42NOOmjgwu1C5pWNWPvMHuGfmi/MgmiUxw2/UumBX0WC4rFzpwGfch07L1l2QHVtx1dilDKdSQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="32758301" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/ritz078/ng-embed/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count"
+              href="/ritz078/ng-embed/watchers"
+              aria-label="11 users are watching this repository">
+              11
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Eq4X34ghBGQo8wrqy9tPGNRYFyeyeTtvWsv+wgRJ0ihPTsoK/cGNPdogKVKToInDCVYJisd3Uk861BNXlTTmUA==" /></div>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar ritz078/ng-embed"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/ritz078/ng-embed/stargazers"
+           aria-label="127 users starred this repository">
+          127
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mRFTNAHAyOs1LUgJxcxJLVFyZPQtKr2Zj2lgm4LKwLcxGscJ0fZaQYepeecaBv7/xIwWLxQ7Ktsi7zhOKHNKcw==" /></div>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star ritz078/ng-embed"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/ritz078/ng-embed/stargazers"
+           aria-label="127 users starred this repository">
+          127
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4pRHDij+od9cHGzmJEMnet4XMjd6RSeJC9qwM8uR64ItmqmkhMPLU3aVrCIBdAE7N0fu6vauG9pUxOVhWs2zrg==" /></div>
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of ritz078/ng-embed to your account"
+                aria-label="Fork your own copy of ritz078/ng-embed to your account">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/ritz078/ng-embed/network" class="social-count"
+       aria-label="34 users forked this repository">
+      34
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="/ritz078" class="url fn" rel="author">ritz078</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/ritz078/ng-embed" data-pjax="#js-repo-pjax-container">ng-embed</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/ritz078/ng-embed" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /ritz078/ng-embed" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/ritz078/ng-embed/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /ritz078/ng-embed/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">18</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/ritz078/ng-embed/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /ritz078/ng-embed/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/ritz078/ng-embed/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ritz078/ng-embed/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a href="/ritz078/ng-embed/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /ritz078/ng-embed/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+
+  <a href="/ritz078/ng-embed/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /ritz078/ng-embed/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+    Pulse
+</a>
+  <a href="/ritz078/ng-embed/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /ritz078/ng-embed/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Graphs
+</a>
+
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+
+<a href="/ritz078/ng-embed/blob/3930163df847ec0bd84accefba46625ce75f42d3/dist/ng-embed.min.css" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:233fc43e5c052ba1d1877319dd095ec0 -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/ritz078/ng-embed/blob/canary/dist/ng-embed.min.css"
+               data-name="canary"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                canary
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/ritz078/ng-embed/blob/gh-pages/dist/ng-embed.min.css"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/ritz078/ng-embed/blob/master/dist/ng-embed.min.css"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/ritz078/ng-embed/blob/site-dev/dist/ng-embed.min.css"
+               data-name="site-dev"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                site-dev
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/ritz078/ng-embed/blob/v3/dist/ng-embed.min.css"
+               data-name="v3"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                v3
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.1.1/dist/ng-embed.min.css"
+              data-name="v2.1.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.1">
+                v2.1.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.1.0/dist/ng-embed.min.css"
+              data-name="v2.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.1.0">
+                v2.1.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.0.4/dist/ng-embed.min.css"
+              data-name="v2.0.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.4">
+                v2.0.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.0.3/dist/ng-embed.min.css"
+              data-name="v2.0.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.3">
+                v2.0.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.0.2/dist/ng-embed.min.css"
+              data-name="v2.0.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.2">
+                v2.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v2.0.1/dist/ng-embed.min.css"
+              data-name="v2.0.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.1">
+                v2.0.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ritz078/ng-embed/tree/v1.0.0/dist/ng-embed.min.css"
+              data-name="v1.0.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.0">
+                v1.0.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="BtnGroup float-right">
+    <a href="/ritz078/ng-embed/find/master"
+          class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+          data-pjax
+          data-hotkey="t">
+      Find file
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+  </div>
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/ritz078/ng-embed"><span>ng-embed</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/ritz078/ng-embed/tree/master/dist"><span>dist</span></a></span><span class="separator">/</span><strong class="final-path">ng-embed.min.css</strong>
+  </div>
+</div>
+
+
+
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/ritz078/ng-embed/commit/aea50d052f62636bdee05ff8777408e4a043001c" data-pjax>
+          aea50d0
+        </a>
+        <relative-time datetime="2016-12-19T21:35:39Z">Dec 20, 2016</relative-time>
+      </span>
+      <div>
+        <img alt="" class="avatar" data-canonical-src="https://0.gravatar.com/avatar/e3f4bc9785b9afe26f4b12f658719069?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" height="20" src="https://camo.githubusercontent.com/a73d5e689fb13b1b9f76052b78b70f84ff65990a/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f65336634626339373835623961666532366634623132663635383731393036393f643d68747470732533412532462532466173736574732d63646e2e6769746875622e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d7826733d313430" width="20" />
+        <span class="user-mention">Robert Michalski</span>
+          <a href="/ritz078/ng-embed/commit/aea50d052f62636bdee05ff8777408e4a043001c" class="message" data-pjax="true" title="Fixed highlight support.">Fixed highlight support.</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>2</strong>
+         contributors
+      </button>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="ritz078" href="/ritz078/ng-embed/commits/master/dist/ng-embed.min.css?author=ritz078"><img alt="@ritz078" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/5389035?v=3&amp;s=40" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="robman87" href="/ritz078/ng-embed/commits/master/dist/ng-embed.min.css?author=robman87"><img alt="@robman87" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5516214?v=3&amp;s=40" width="20" /> </a>
+
+
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@ritz078" height="24" src="https://avatars1.githubusercontent.com/u/5389035?v=3&amp;s=48" width="24" />
+            <a href="/ritz078">ritz078</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@robman87" height="24" src="https://avatars2.githubusercontent.com/u/5516214?v=3&amp;s=48" width="24" />
+            <a href="/robman87">robman87</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a href="/ritz078/ng-embed/raw/master/dist/ng-embed.min.css" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/ritz078/ng-embed/blame/master/dist/ng-embed.min.css" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/ritz078/ng-embed/commits/master/dist/ng-embed.min.css" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="github-windows://openRepo/https://github.com/ritz078/ng-embed?branch=master&amp;filepath=dist%2Fng-embed.min.css"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/edit/master/dist/ng-embed.min.css" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lqnS+hDPGA9ZkwyyRywaWJECg8X+iq/wjZboYs4BkzKSeyimkFSgA70/A4KrNHiqU3aixsthAC7KXNHvUIRsBA==" /></div>
+          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/ritz078/ng-embed/delete/master/dist/ng-embed.min.css" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Fru76DzPXGsnKaWMePzXP4q2Zp1RpTmfz5fPcoGAJI59Yt2CZXEAbETnlITdHK9+XJWFsk+rs9C7uVv1INvvRA==" /></div>
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    48.3 KB
+  </div>
+</div>
+
+  
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">.pre-numbering,code.has-numbering{font-family:Consolas,Menlo,Monaco,monospace;font-size:14px;line-height:20px}.ne-pdf,.ne-pdf-view button,.ne-video{-webkit-transition:all .5s linear;-o-transition:all .5s linear;-moz-transition:all .5s linear;-ms-transition:all .5s linear;-kthtml-transition:all .5s linear}.ne-image,.ne-pdf,.ne-pdf-view button,.ne-video{-kthtml-transition:all .5s linear}.ne-embed iframe,.ne-image-wrapper,.ne-video-player{background-image:url(../images/loader.svg);background-repeat:no-repeat;background-position:center}*{box-sizing:border-box}@font-face{font-family:emoticons;src:url(../fonts/emoticons.eot?5zh0vu);src:url(../fonts/emoticons.eot?#iefix5zh0vu) format(&#39;embedded-opentype&#39;),url(../fonts/emoticons.woff?5zh0vu) format(&#39;woff&#39;),url(../fonts/emoticons.ttf?5zh0vu) format(&#39;truetype&#39;),url(../fonts/emoticons.svg?5zh0vu#icomoon) format(&#39;svg&#39;);font-weight:400;font-style:normal}.ne-code{font-size:14px;font-family:Consolas,Menlo,Monaco,monospace;padding:1.5em}pre{position:relative;margin-bottom:24px;border-radius:2px;overflow:hidden}code.has-numbering{display:block;padding:12px 30px;overflow-y:auto;font-weight:300;margin-left:36px}.pre-numbering{position:absolute;top:0;left:0;width:35px;padding:1.1em 5px 12px 0;border-right:1px solid #e8e8e8;border-radius:3px 0 0 3px;background-color:#EEE;text-align:right;color:#AAA;margin-top:-4px}.pre-numbering li{list-style-type:none}.ne-pdf iframe{width:420px;height:530px;display:block}.ne-pdf-icon{width:200px;height:150px;float:left;border-right:1px solid #eee}.ne-audio audio,.ne-embed{width:100%}.ne-pdf-icon i{margin:29px 62px;color:#999;font-size:84px}.ne-pdf-view button{font-family:inherit;font-size:14px;background-color:transparent;border:1px solid #ccc;padding:6px 15px;border-radius:2px;color:#333;cursor:pointer;box-shadow:0 1px 1px 0 rgba(0,0,0,.26);outline:0;border-bottom:0;float:right;margin:80px 10px 0;transition:all .5s linear}.ne-pdf-view button:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,.26)}.ne-pdf-view button i{margin-right:6px}.ne-pdf-view button a{color:#333}.ne-pdf-viewer iframe{margin:0 auto}.ne-embed,.ne-pdf,.ne-video{margin:20px 0;box-shadow:0 1px 1px 0 rgba(0,0,0,.26)}.ne-pdf-viewer{background-color:#3498DB;position:relative}.ne-pdf-viewer i{position:absolute;right:10px;top:8px;color:#fff;font-size:25px;cursor:pointer}.ne-audio{background-color:#1D1D1D;border-radius:2px;padding-top:6px}.ne-pdf,.ne-video{padding:5px;border:1px solid #e4e4e4;border-radius:2px;border-bottom:0;overflow:auto;transition:all .5s linear}.ne-embed{padding:5px 5px 1px;border:1px solid #e4e4e4;border-radius:2px;border-bottom:0}.ne-audio iframe,.ne-embed iframe,.ne-video iframe,.ne-video object{width:100%;border:0}.ne-embed iframe{background-color:#3498DB}.ne-plunker{background-color:#fff!important}.ne-video video{width:100%}.ne-image:hover,.ne-video:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,.26)}.ne-pdf-preview,.ne-video-preview{overflow:auto}.ne-video-preview img{display:block;width:200px;height:150px;border-radius:2px;background-color:#3498DB}.ne-video-thumb{width:200px;float:left;cursor:pointer;color:rgba(255,255,255,.6)}.ne-video-thumb:hover{color:#fff}.ne-video-thumb i{position:absolute;font-size:42px;margin-top:-95px;margin-left:80px;cursor:pointer}.ne-pdf-detail,.ne-video-detail{width:calc(100% - 200px);float:left;padding-left:15px}.emoticons-image,.emoticons-image-wrapper,.ne-image,.ne-video-player iframe{width:100%}.ne-pdf-title,.ne-video-title{font-weight:bolder;padding:5px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ne-video-desc{font-size:16px;color:#666;height:90px}.ne-stats{padding-top:7px;overflow:auto}.ne-video-stats span{padding:0 15px;float:right}.ne-video-stats span i{margin-right:10px}.ne-video-player{background-color:#3498DB}.ne-image{border-radius:2px;border:1px solid #e4e4e4;min-height:250px;max-height:250px;overflow:hidden;cursor:pointer;padding-bottom:5px;-webkit-transition:all .5s linear;-o-transition:all .5s linear;-moz-transition:all .5s linear;-ms-transition:all .5s linear;transition:all .5s linear;box-shadow:0 1px 1px 0 rgba(0,0,0,.26);border-bottom:5px solid #fff;margin:10px 0}.ne-image-long{max-height:800px}.ne-image img,.ne-image-long img{width:100%;display:block;min-height:250px}.ne-image-wrapper{margin:5px 5px 0;background-color:#3498DB;height:100%;overflow:hidden}.ne-gist body{margin:0!important}.emoticons-image{padding:5px;border-radius:2px;border:1px solid #F2F2F2;display:block;margin:20px 0}.emoticon,.ne-emoticon{display:inline-block;vertical-align:middle}.ne-emoticon{font-family:emoticons;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.emoticon{text-indent:-9999px;height:22px;width:22px}@media all and (-webkit-min-device-pixel-ratio :1),all and (min--moz-device-pixel-ratio :1),all and (-o-min-device-pixel-ratio :1),all and (min-device-pixel-ratio :1),all and (min-resolution :96dpi){.emoticon{background:url(../images/emojis.png) no-repeat}}@media all and (-webkit-min-device-pixel-ratio :1.5),all and (-o-min-device-pixel-ratio :3/2),all and (min-device-pixel-ratio :1.5),all and (min-resolution :144dpi){.emoticon{background:url(../images/emojis@2x.png) no-repeat;background-size:27776px 22px}}@-moz-document url-prefix(){.emoticon{background:url(../images/emojis.png) no-repeat}}.emoticon-bowtie{background-position:-5px 0}.emoticon-smile{background-position:-37px 0}.emoticon-laughing{background-position:-69px 0}.emoticon-blush{background-position:-101px 0}.emoticon-smiley{background-position:-133px 0}.emoticon-relaxed{background-position:-165px 0}.emoticon-smirk{background-position:-197px 0}.emoticon-heart_eyes{background-position:-229px 0}.emoticon-kissing_heart{background-position:-261px 0}.emoticon-kissing_closed_eyes{background-position:-293px 0}.emoticon-flushed{background-position:-325px 0}.emoticon-relieved{background-position:-357px 0}.emoticon-satisfied{background-position:-389px 0}.emoticon-grin{background-position:-421px 0}.emoticon-wink{background-position:-453px 0}.emoticon-stuck_out_tongue_winking_eye,.emoticon-winky_face{background-position:-485px 0}.emoticon-stuck_out_tongue_closed_eyes{background-position:-517px 0}.emoticon-grinning{background-position:-549px 0}.emoticon-kissing{background-position:-581px 0}.emoticon-kissing_smiling_eyes{background-position:-613px 0}.emoticon-stuck_out_tongue{background-position:-645px 0}.emoticon-sleeping{background-position:-677px 0}.emoticon-worried{background-position:-709px 0}.emoticon-frowning{background-position:-741px 0}.emoticon-anguished{background-position:-773px 0}.emoticon-open_mouth,.emoticon-wow{background-position:-805px 0}.emoticon-grimacing{background-position:-837px 0}.emoticon-confused{background-position:-869px 0}.emoticon-hushed{background-position:-901px 0}.emoticon-expressionless{background-position:-933px 0}.emoticon-unamused{background-position:-965px 0}.emoticon-sweat_smile{background-position:-997px 0}.emoticon-sweat{background-position:-1029px 0}.emoticon-disappointed_relieved{background-position:-1061px 0}.emoticon-weary{background-position:-1093px 0}.emoticon-pensive{background-position:-1125px 0}.emoticon-disappointed{background-position:-1157px 0}.emoticon-confounded{background-position:-1189px 0}.emoticon-fearful{background-position:-1221px 0}.emoticon-cold_sweat{background-position:-1253px 0}.emoticon-persevere{background-position:-1285px 0}.emoticon-cry{background-position:-1317px 0}.emoticon-sob{background-position:-1349px 0}.emoticon-joy{background-position:-1381px 0}.emoticon-astonished{background-position:-1413px 0}.emoticon-scream{background-position:-1445px 0}.emoticon-neckbeard{background-position:-1477px 0}.emoticon-tired_face{background-position:-1509px 0}.emoticon-angry{background-position:-1541px 0}.emoticon-rage{background-position:-1573px 0}.emoticon-triumph{background-position:-1605px 0}.emoticon-sleepy{background-position:-1637px 0}.emoticon-yum{background-position:-1669px 0}.emoticon-mask{background-position:-1701px 0}.emoticon-sunglasses{background-position:-1733px 0}.emoticon-dizzy_face{background-position:-1765px 0}.emoticon-imp{background-position:-1797px 0}.emoticon-smiling_imp{background-position:-1829px 0}.emoticon-neutral_face{background-position:-1861px 0}.emoticon-no_mouth{background-position:-1893px 0}.emoticon-innocent{background-position:-1925px 0}.emoticon-alien{background-position:-1957px 0}.emoticon-yellow_heart{background-position:-1989px 0}.emoticon-blue_heart{background-position:-2021px 0}.emoticon-purple_heart{background-position:-2053px 0}.emoticon-heart{background-position:-2085px 0}.emoticon-green_heart{background-position:-2117px 0}.emoticon-broken_heart{background-position:-2149px 0}.emoticon-heartbeat{background-position:-2181px 0}.emoticon-heartpulse{background-position:-2213px 0}.emoticon-two_hearts{background-position:-2245px 0}.emoticon-revolving_hearts{background-position:-2277px 0}.emoticon-cupid{background-position:-2309px 0}.emoticon-sparkling_heart{background-position:-2341px 0}.emoticon-sparkles{background-position:-2373px 0}.emoticon-star{background-position:-2405px 0}.emoticon-star2{background-position:-2437px 0}.emoticon-dizzy{background-position:-2469px 0}.emoticon-boom{background-position:-2501px 0}.emoticon-collision{background-position:-2533px 0}.emoticon-anger{background-position:-2565px 0}.emoticon-exclamation{background-position:-2597px 0}.emoticon-question{background-position:-2629px 0}.emoticon-grey_exclamation{background-position:-2661px 0}.emoticon-grey_question{background-position:-2693px 0}.emoticon-zzz{background-position:-2725px 0}.emoticon-dash{background-position:-2757px 0}.emoticon-sweat_drops{background-position:-2789px 0}.emoticon-notes{background-position:-2821px 0}.emoticon-musical_note{background-position:-2853px 0}.emoticon-fire{background-position:-2885px 0}.emoticon-hankey{background-position:-2917px 0}.emoticon-poop{background-position:-2949px 0}.emoticon-shit{background-position:-2981px 0}.emoticon-\+1{background-position:-3013px 0}.emoticon-thumbsup{background-position:-3045px 0}.emoticon-\-1{background-position:-3077px 0}.emoticon-thumbsdown{background-position:-3109px 0}.emoticon-ok_hand{background-position:-3141px 0}.emoticon-punch{background-position:-3173px 0}.emoticon-facepunch{background-position:-3205px 0}.emoticon-fist{background-position:-3237px 0}.emoticon-v{background-position:-3269px 0}.emoticon-wave{background-position:-3301px 0}.emoticon-hand{background-position:-3333px 0}.emoticon-raised_hand{background-position:-3365px 0}.emoticon-open_hands{background-position:-3397px 0}.emoticon-point_up{background-position:-3429px 0}.emoticon-point_down{background-position:-3461px 0}.emoticon-point_left{background-position:-3493px 0}.emoticon-point_right{background-position:-3525px 0}.emoticon-raised_hands{background-position:-3557px 0}.emoticon-pray{background-position:-3589px 0}.emoticon-point_up_2{background-position:-3621px 0}.emoticon-clap{background-position:-3653px 0}.emoticon-muscle{background-position:-3685px 0}.emoticon-metal{background-position:-3717px 0}.emoticon-fu{background-position:-3749px 0}.emoticon-walking{background-position:-3781px 0}.emoticon-runner{background-position:-3813px 0}.emoticon-running{background-position:-3845px 0}.emoticon-couple{background-position:-3877px 0}.emoticon-family{background-position:-3909px 0}.emoticon-two_men_holding_hands{background-position:-3941px 0}.emoticon-two_women_holding_hands{background-position:-3973px 0}.emoticon-dancer{background-position:-4005px 0}.emoticon-dancers{background-position:-4037px 0}.emoticon-ok_woman{background-position:-4069px 0}.emoticon-no_good{background-position:-4101px 0}.emoticon-information_desk_person{background-position:-4133px 0}.emoticon-raising_hand{background-position:-4165px 0}.emoticon-bride_with_veil{background-position:-4197px 0}.emoticon-person_with_pouting_face{background-position:-4229px 0}.emoticon-person_frowning{background-position:-4261px 0}.emoticon-bow{background-position:-4293px 0}.emoticon-couplekiss{background-position:-4325px 0}.emoticon-couple_with_heart{background-position:-4357px 0}.emoticon-massage{background-position:-4389px 0}.emoticon-haircut{background-position:-4421px 0}.emoticon-nail_care{background-position:-4453px 0}.emoticon-boy{background-position:-4485px 0}.emoticon-girl{background-position:-4517px 0}.emoticon-woman{background-position:-4549px 0}.emoticon-man{background-position:-4581px 0}.emoticon-baby{background-position:-4613px 0}.emoticon-older_woman{background-position:-4645px 0}.emoticon-older_man{background-position:-4677px 0}.emoticon-person_with_blond_hair{background-position:-4709px 0}.emoticon-man_with_gua_pi_mao{background-position:-4741px 0}.emoticon-man_with_turban{background-position:-4773px 0}.emoticon-construction_worker{background-position:-4805px 0}.emoticon-cop{background-position:-4837px 0}.emoticon-angel{background-position:-4869px 0}.emoticon-princess{background-position:-4901px 0}.emoticon-emoticon_cat{background-position:-4933px 0}.emoticon-smile_cat{background-position:-4965px 0}.emoticon-heart_eyes_cat{background-position:-4997px 0}.emoticon-kissing_cat{background-position:-5029px 0}.emoticon-smirk_cat{background-position:-5061px 0}.emoticon-scream_cat{background-position:-5093px 0}.emoticon-crying_cat_face{background-position:-5125px 0}.emoticon-joy_cat{background-position:-5157px 0}.emoticon-pouting_cat{background-position:-5189px 0}.emoticon-japanese_ogre{background-position:-5221px 0}.emoticon-japanese_goblin{background-position:-5253px 0}.emoticon-see_no_evil{background-position:-5285px 0}.emoticon-hear_no_evil{background-position:-5317px 0}.emoticon-speak_no_evil{background-position:-5349px 0}.emoticon-guardsman{background-position:-5381px 0}.emoticon-skull{background-position:-5413px 0}.emoticon-feet{background-position:-5445px 0}.emoticon-lips{background-position:-5477px 0}.emoticon-kiss{background-position:-5509px 0}.emoticon-droplet{background-position:-5541px 0}.emoticon-ear{background-position:-5573px 0}.emoticon-eyes{background-position:-5605px 0}.emoticon-nose{background-position:-5637px 0}.emoticon-tongue{background-position:-5669px 0}.emoticon-love_letter{background-position:-5701px 0}.emoticon-bust_in_silhouette{background-position:-5733px 0}.emoticon-busts_in_silhouette{background-position:-5765px 0}.emoticon-speech_balloon{background-position:-5797px 0}.emoticon-thought_balloon{background-position:-5829px 0}.emoticon-feelsgood{background-position:-5861px 0}.emoticon-finnadie{background-position:-5893px 0}.emoticon-goberserk{background-position:-5925px 0}.emoticon-godmode{background-position:-5957px 0}.emoticon-hurtrealbad{background-position:-5989px 0}.emoticon-rage1{background-position:-6021px 0}.emoticon-rage2{background-position:-6053px 0}.emoticon-rage3{background-position:-6085px 0}.emoticon-rage4{background-position:-6117px 0}.emoticon-suspect{background-position:-6149px 0}.emoticon-trollface{background-position:-6181px 0}.emoticon-sunny{background-position:-6213px 0}.emoticon-umbrella{background-position:-6245px 0}.emoticon-cloud{background-position:-6277px 0}.emoticon-snowflake{background-position:-6309px 0}.emoticon-snowman{background-position:-6341px 0}.emoticon-zap{background-position:-6373px 0}.emoticon-cyclone{background-position:-6405px 0}.emoticon-foggy{background-position:-6437px 0}.emoticon-ocean{background-position:-6469px 0}.emoticon-cat{background-position:-6501px 0}.emoticon-dog{background-position:-6533px 0}.emoticon-mouse{background-position:-6565px 0}.emoticon-hamster{background-position:-6597px 0}.emoticon-rabbit{background-position:-6629px 0}.emoticon-wolf{background-position:-6661px 0}.emoticon-frog{background-position:-6693px 0}.emoticon-tiger{background-position:-6725px 0}.emoticon-koala{background-position:-6757px 0}.emoticon-bear{background-position:-6789px 0}.emoticon-pig{background-position:-6821px 0}.emoticon-pig_nose{background-position:-6853px 0}.emoticon-cow{background-position:-6885px 0}.emoticon-boar{background-position:-6917px 0}.emoticon-monkey_face{background-position:-6949px 0}.emoticon-monkey{background-position:-6981px 0}.emoticon-horse{background-position:-7013px 0}.emoticon-racehorse{background-position:-7045px 0}.emoticon-camel{background-position:-7077px 0}.emoticon-sheep{background-position:-7109px 0}.emoticon-elephant{background-position:-7141px 0}.emoticon-panda_face{background-position:-7173px 0}.emoticon-snake{background-position:-7205px 0}.emoticon-bird{background-position:-7237px 0}.emoticon-baby_chick{background-position:-7269px 0}.emoticon-hatched_chick{background-position:-7301px 0}.emoticon-hatching_chick{background-position:-7333px 0}.emoticon-chicken{background-position:-7365px 0}.emoticon-penguin{background-position:-7397px 0}.emoticon-turtle{background-position:-7429px 0}.emoticon-bug{background-position:-7461px 0}.emoticon-honeybee{background-position:-7493px 0}.emoticon-ant{background-position:-7525px 0}.emoticon-beetle{background-position:-7557px 0}.emoticon-snail{background-position:-7589px 0}.emoticon-octopus{background-position:-7621px 0}.emoticon-tropical_fish{background-position:-7653px 0}.emoticon-fish{background-position:-7685px 0}.emoticon-whale{background-position:-7717px 0}.emoticon-whale2{background-position:-7749px 0}.emoticon-dolphin{background-position:-7781px 0}.emoticon-cow2{background-position:-7813px 0}.emoticon-ram{background-position:-7845px 0}.emoticon-rat{background-position:-7877px 0}.emoticon-water_buffalo{background-position:-7909px 0}.emoticon-tiger2{background-position:-7941px 0}.emoticon-rabbit2{background-position:-7973px 0}.emoticon-dragon{background-position:-8005px 0}.emoticon-goat{background-position:-8037px 0}.emoticon-rooster{background-position:-8069px 0}.emoticon-dog2{background-position:-8101px 0}.emoticon-pig2{background-position:-8133px 0}.emoticon-mouse2{background-position:-8165px 0}.emoticon-ox{background-position:-8197px 0}.emoticon-dragon_face{background-position:-8229px 0}.emoticon-blowfish{background-position:-8261px 0}.emoticon-crocodile{background-position:-8293px 0}.emoticon-dromedary_camel{background-position:-8325px 0}.emoticon-leopard{background-position:-8357px 0}.emoticon-cat2{background-position:-8389px 0}.emoticon-poodle{background-position:-8421px 0}.emoticon-paw_prints{background-position:-8453px 0}.emoticon-bouquet{background-position:-8485px 0}.emoticon-cherry_blossom{background-position:-8517px 0}.emoticon-tulip{background-position:-8549px 0}.emoticon-four_leaf_clover{background-position:-8581px 0}.emoticon-rose{background-position:-8613px 0}.emoticon-sunflower{background-position:-8645px 0}.emoticon-hibiscus{background-position:-8677px 0}.emoticon-maple_leaf{background-position:-8709px 0}.emoticon-leaves{background-position:-8741px 0}.emoticon-fallen_leaf{background-position:-8773px 0}.emoticon-herb{background-position:-8805px 0}.emoticon-mushroom{background-position:-8837px 0}.emoticon-cactus{background-position:-8869px 0}.emoticon-palm_tree{background-position:-8901px 0}.emoticon-evergreen_tree{background-position:-8933px 0}.emoticon-deciduous_tree{background-position:-8965px 0}.emoticon-chestnut{background-position:-8997px 0}.emoticon-seedling{background-position:-9029px 0}.emoticon-blossom{background-position:-9061px 0}.emoticon-ear_of_rice{background-position:-9093px 0}.emoticon-shell{background-position:-9125px 0}.emoticon-globe_with_meridians{background-position:-9157px 0}.emoticon-sun_with_face{background-position:-9189px 0}.emoticon-full_moon_with_face{background-position:-9221px 0}.emoticon-new_moon_with_face{background-position:-9253px 0}.emoticon-new_moon{background-position:-9285px 0}.emoticon-waxing_crescent_moon{background-position:-9317px 0}.emoticon-first_quarter_moon{background-position:-9349px 0}.emoticon-waxing_gibbous_moon{background-position:-9381px 0}.emoticon-full_moon{background-position:-9413px 0}.emoticon-waning_gibbous_moon{background-position:-9445px 0}.emoticon-last_quarter_moon{background-position:-9477px 0}.emoticon-waning_crescent_moon{background-position:-9509px 0}.emoticon-last_quarter_moon_with_face{background-position:-9541px 0}.emoticon-first_quarter_moon_with_face{background-position:-9573px 0}.emoticon-moon{background-position:-9605px 0}.emoticon-earth_africa{background-position:-9637px 0}.emoticon-earth_americas{background-position:-9669px 0}.emoticon-earth_asia{background-position:-9701px 0}.emoticon-volcano{background-position:-9733px 0}.emoticon-milky_way{background-position:-9765px 0}.emoticon-partly_sunny{background-position:-9797px 0}.emoticon-octocat{background-position:-9829px 0}.emoticon-squirrel{background-position:-9861px 0}.emoticon-bamboo{background-position:-9893px 0}.emoticon-gift_heart{background-position:-9925px 0}.emoticon-dolls{background-position:-9957px 0}.emoticon-school_satchel{background-position:-9989px 0}.emoticon-mortar_board{background-position:-10021px 0}.emoticon-flags{background-position:-10053px 0}.emoticon-fireworks{background-position:-10085px 0}.emoticon-sparkler{background-position:-10117px 0}.emoticon-wind_chime{background-position:-10149px 0}.emoticon-rice_scene{background-position:-10181px 0}.emoticon-jack_o_lantern{background-position:-10213px 0}.emoticon-ghost{background-position:-10245px 0}.emoticon-santa{background-position:-10277px 0}.emoticon-christmas_tree{background-position:-10309px 0}.emoticon-gift{background-position:-10341px 0}.emoticon-bell{background-position:-10373px 0}.emoticon-no_bell{background-position:-10405px 0}.emoticon-tanabata_tree{background-position:-10437px 0}.emoticon-tada{background-position:-10469px 0}.emoticon-confetti_ball{background-position:-10501px 0}.emoticon-balloon{background-position:-10533px 0}.emoticon-crystal_ball{background-position:-10565px 0}.emoticon-cd{background-position:-10597px 0}.emoticon-dvd{background-position:-10629px 0}.emoticon-floppy_disk{background-position:-10661px 0}.emoticon-camera{background-position:-10693px 0}.emoticon-video_camera{background-position:-10725px 0}.emoticon-movie_camera{background-position:-10757px 0}.emoticon-computer{background-position:-10789px 0}.emoticon-tv{background-position:-10821px 0}.emoticon-iphone{background-position:-10853px 0}.emoticon-phone{background-position:-10885px 0}.emoticon-telephone{background-position:-10917px 0}.emoticon-telephone_receiver{background-position:-10949px 0}.emoticon-pager{background-position:-10981px 0}.emoticon-fax{background-position:-11013px 0}.emoticon-minidisc{background-position:-11045px 0}.emoticon-vhs{background-position:-11077px 0}.emoticon-sound{background-position:-11109px 0}.emoticon-speaker{background-position:-11141px 0}.emoticon-mute{background-position:-11173px 0}.emoticon-loudspeaker{background-position:-11205px 0}.emoticon-mega{background-position:-11237px 0}.emoticon-hourglass{background-position:-11269px 0}.emoticon-hourglass_flowing_sand{background-position:-11301px 0}.emoticon-alarm_clock{background-position:-11333px 0}.emoticon-watch{background-position:-11365px 0}.emoticon-radio{background-position:-11397px 0}.emoticon-satellite{background-position:-11429px 0}.emoticon-loop{background-position:-11461px 0}.emoticon-mag{background-position:-11493px 0}.emoticon-mag_right{background-position:-11525px 0}.emoticon-unlock{background-position:-11557px 0}.emoticon-lock{background-position:-11589px 0}.emoticon-lock_with_ink_pen{background-position:-11621px 0}.emoticon-closed_lock_with_key{background-position:-11653px 0}.emoticon-key{background-position:-11685px 0}.emoticon-bulb{background-position:-11717px 0}.emoticon-flashlight{background-position:-11749px 0}.emoticon-high_brightness{background-position:-11781px 0}.emoticon-low_brightness{background-position:-11813px 0}.emoticon-electric_plug{background-position:-11845px 0}.emoticon-battery{background-position:-11877px 0}.emoticon-calling{background-position:-11909px 0}.emoticon-email{background-position:-11941px 0}.emoticon-mailbox{background-position:-11973px 0}.emoticon-postbox{background-position:-12005px 0}.emoticon-bath{background-position:-12037px 0}.emoticon-bathtub{background-position:-12069px 0}.emoticon-shower{background-position:-12101px 0}.emoticon-toilet{background-position:-12133px 0}.emoticon-wrench{background-position:-12165px 0}.emoticon-nut_and_bolt{background-position:-12197px 0}.emoticon-hammer{background-position:-12229px 0}.emoticon-seat{background-position:-12261px 0}.emoticon-moneybag{background-position:-12293px 0}.emoticon-yen{background-position:-12325px 0}.emoticon-dollar{background-position:-12357px 0}.emoticon-pound{background-position:-12389px 0}.emoticon-euro{background-position:-12421px 0}.emoticon-credit_card{background-position:-12453px 0}.emoticon-money_with_wings{background-position:-12485px 0}.emoticon-e\-mail{background-position:-12517px 0}.emoticon-inbox_tray{background-position:-12549px 0}.emoticon-outbox_tray{background-position:-12581px 0}.emoticon-envelope{background-position:-12613px 0}.emoticon-incoming_envelope{background-position:-12645px 0}.emoticon-postal_horn{background-position:-12677px 0}.emoticon-mailbox_closed{background-position:-12709px 0}.emoticon-mailbox_with_mail{background-position:-12741px 0}.emoticon-mailbox_with_no_mail{background-position:-12773px 0}.emoticon-door{background-position:-12805px 0}.emoticon-smoking{background-position:-12837px 0}.emoticon-bomb{background-position:-12869px 0}.emoticon-gun{background-position:-12901px 0}.emoticon-hocho{background-position:-12933px 0}.emoticon-pill{background-position:-12965px 0}.emoticon-syringe{background-position:-12997px 0}.emoticon-page_facing_up{background-position:-13029px 0}.emoticon-page_with_curl{background-position:-13061px 0}.emoticon-bookmark_tabs{background-position:-13093px 0}.emoticon-bar_chart{background-position:-13125px 0}.emoticon-chart_with_upwards_trend{background-position:-13157px 0}.emoticon-chart_with_downwards_trend{background-position:-13189px 0}.emoticon-scroll{background-position:-13221px 0}.emoticon-clipboard{background-position:-13253px 0}.emoticon-calendar{background-position:-13285px 0}.emoticon-date{background-position:-13317px 0}.emoticon-card_index{background-position:-13349px 0}.emoticon-file_folder{background-position:-13381px 0}.emoticon-open_file_folder{background-position:-13413px 0}.emoticon-scissors{background-position:-13445px 0}.emoticon-pushpin{background-position:-13477px 0}.emoticon-paperclip{background-position:-13509px 0}.emoticon-black_nib{background-position:-13541px 0}.emoticon-pencil2{background-position:-13573px 0}.emoticon-straight_ruler{background-position:-13605px 0}.emoticon-triangular_ruler{background-position:-13637px 0}.emoticon-closed_book{background-position:-13669px 0}.emoticon-green_book{background-position:-13701px 0}.emoticon-blue_book{background-position:-13733px 0}.emoticon-orange_book{background-position:-13765px 0}.emoticon-notebook{background-position:-13797px 0}.emoticon-notebook_with_decorative_cover{background-position:-13829px 0}.emoticon-ledger{background-position:-13861px 0}.emoticon-books{background-position:-13893px 0}.emoticon-bookmark{background-position:-13925px 0}.emoticon-name_badge{background-position:-13957px 0}.emoticon-microscope{background-position:-13989px 0}.emoticon-telescope{background-position:-14021px 0}.emoticon-newspaper{background-position:-14053px 0}.emoticon-football{background-position:-14085px 0}.emoticon-basketball{background-position:-14117px 0}.emoticon-soccer{background-position:-14149px 0}.emoticon-baseball{background-position:-14181px 0}.emoticon-tennis{background-position:-14213px 0}.emoticon-8ball{background-position:-14245px 0}.emoticon-rugby_football{background-position:-14277px 0}.emoticon-bowling{background-position:-14309px 0}.emoticon-golf{background-position:-14341px 0}.emoticon-mountain_bicyclist{background-position:-14373px 0}.emoticon-bicyclist{background-position:-14405px 0}.emoticon-horse_racing{background-position:-14437px 0}.emoticon-snowboarder{background-position:-14469px 0}.emoticon-swimmer{background-position:-14501px 0}.emoticon-surfer{background-position:-14533px 0}.emoticon-ski{background-position:-14565px 0}.emoticon-spades{background-position:-14597px 0}.emoticon-hearts{background-position:-14629px 0}.emoticon-clubs{background-position:-14661px 0}.emoticon-diamonds{background-position:-14693px 0}.emoticon-gem{background-position:-14725px 0}.emoticon-ring{background-position:-14757px 0}.emoticon-trophy{background-position:-14789px 0}.emoticon-musical_score{background-position:-14821px 0}.emoticon-musical_keyboard{background-position:-14853px 0}.emoticon-violin{background-position:-14885px 0}.emoticon-space_invader{background-position:-14917px 0}.emoticon-video_game{background-position:-14949px 0}.emoticon-black_joker{background-position:-14981px 0}.emoticon-flower_playing_cards{background-position:-15013px 0}.emoticon-game_die{background-position:-15045px 0}.emoticon-dart{background-position:-15077px 0}.emoticon-mahjong{background-position:-15109px 0}.emoticon-clapper{background-position:-15141px 0}.emoticon-memo{background-position:-15173px 0}.emoticon-pencil{background-position:-15205px 0}.emoticon-book{background-position:-15237px 0}.emoticon-art{background-position:-15269px 0}.emoticon-microphone{background-position:-15301px 0}.emoticon-headphones{background-position:-15333px 0}.emoticon-trumpet{background-position:-15365px 0}.emoticon-saxophone{background-position:-15397px 0}.emoticon-guitar{background-position:-15429px 0}.emoticon-shoe{background-position:-15461px 0}.emoticon-sandal{background-position:-15493px 0}.emoticon-high_heel{background-position:-15525px 0}.emoticon-lipstick{background-position:-15557px 0}.emoticon-boot{background-position:-15589px 0}.emoticon-shirt{background-position:-15621px 0}.emoticon-tshirt{background-position:-15653px 0}.emoticon-necktie{background-position:-15685px 0}.emoticon-womans_clothes{background-position:-15717px 0}.emoticon-dress{background-position:-15749px 0}.emoticon-running_shirt_with_sash{background-position:-15781px 0}.emoticon-jeans{background-position:-15813px 0}.emoticon-kimono{background-position:-15845px 0}.emoticon-bikini{background-position:-15877px 0}.emoticon-ribbon{background-position:-15909px 0}.emoticon-tophat{background-position:-15941px 0}.emoticon-crown{background-position:-15973px 0}.emoticon-womans_hat{background-position:-16005px 0}.emoticon-mans_shoe{background-position:-16037px 0}.emoticon-closed_umbrella{background-position:-16069px 0}.emoticon-briefcase{background-position:-16101px 0}.emoticon-handbag{background-position:-16133px 0}.emoticon-pouch{background-position:-16165px 0}.emoticon-purse{background-position:-16197px 0}.emoticon-eyeglasses{background-position:-16229px 0}.emoticon-fishing_pole_and_fish{background-position:-16261px 0}.emoticon-coffee{background-position:-16293px 0}.emoticon-tea{background-position:-16325px 0}.emoticon-sake{background-position:-16357px 0}.emoticon-baby_bottle{background-position:-16389px 0}.emoticon-beer{background-position:-16421px 0}.emoticon-beers{background-position:-16453px 0}.emoticon-cocktail{background-position:-16485px 0}.emoticon-tropical_drink{background-position:-16517px 0}.emoticon-wine_glass{background-position:-16549px 0}.emoticon-fork_and_knife{background-position:-16581px 0}.emoticon-pizza{background-position:-16613px 0}.emoticon-hamburger{background-position:-16645px 0}.emoticon-fries{background-position:-16677px 0}.emoticon-poultry_leg{background-position:-16709px 0}.emoticon-meat_on_bone{background-position:-16741px 0}.emoticon-spaghetti{background-position:-16773px 0}.emoticon-curry{background-position:-16805px 0}.emoticon-fried_shrimp{background-position:-16837px 0}.emoticon-bento{background-position:-16869px 0}.emoticon-sushi{background-position:-16901px 0}.emoticon-fish_cake{background-position:-16933px 0}.emoticon-rice_ball{background-position:-16965px 0}.emoticon-rice_cracker{background-position:-16997px 0}.emoticon-rice{background-position:-17029px 0}.emoticon-ramen{background-position:-17061px 0}.emoticon-stew{background-position:-17093px 0}.emoticon-oden{background-position:-17125px 0}.emoticon-dango{background-position:-17157px 0}.emoticon-egg{background-position:-17189px 0}.emoticon-bread{background-position:-17221px 0}.emoticon-doughnut{background-position:-17253px 0}.emoticon-custard{background-position:-17285px 0}.emoticon-icecream{background-position:-17317px 0}.emoticon-ice_cream{background-position:-17349px 0}.emoticon-shaved_ice{background-position:-17381px 0}.emoticon-birthday{background-position:-17413px 0}.emoticon-cake{background-position:-17445px 0}.emoticon-cookie{background-position:-17477px 0}.emoticon-chocolate_bar{background-position:-17509px 0}.emoticon-candy{background-position:-17541px 0}.emoticon-lollipop{background-position:-17573px 0}.emoticon-honey_pot{background-position:-17605px 0}.emoticon-apple{background-position:-17637px 0}.emoticon-green_apple{background-position:-17669px 0}.emoticon-tangerine{background-position:-17701px 0}.emoticon-lemon{background-position:-17733px 0}.emoticon-cherries{background-position:-17765px 0}.emoticon-grapes{background-position:-17797px 0}.emoticon-watermelon{background-position:-17829px 0}.emoticon-strawberry{background-position:-17861px 0}.emoticon-peach{background-position:-17893px 0}.emoticon-melon{background-position:-17925px 0}.emoticon-banana{background-position:-17957px 0}.emoticon-pear{background-position:-17989px 0}.emoticon-pineapple{background-position:-18021px 0}.emoticon-sweet_potato{background-position:-18053px 0}.emoticon-eggplant{background-position:-18085px 0}.emoticon-tomato{background-position:-18117px 0}.emoticon-corn{background-position:-18149px 0}.emoticon-house{background-position:-18181px 0}.emoticon-house_with_garden{background-position:-18213px 0}.emoticon-school{background-position:-18245px 0}.emoticon-office{background-position:-18277px 0}.emoticon-post_office{background-position:-18309px 0}.emoticon-hospital{background-position:-18341px 0}.emoticon-bank{background-position:-18373px 0}.emoticon-convenience_store{background-position:-18405px 0}.emoticon-love_hotel{background-position:-18437px 0}.emoticon-hotel{background-position:-18469px 0}.emoticon-wedding{background-position:-18501px 0}.emoticon-church{background-position:-18533px 0}.emoticon-department_store{background-position:-18565px 0}.emoticon-european_post_office{background-position:-18597px 0}.emoticon-city_sunrise{background-position:-18629px 0}.emoticon-city_sunset{background-position:-18661px 0}.emoticon-japanese_castle{background-position:-18693px 0}.emoticon-european_castle{background-position:-18725px 0}.emoticon-tent{background-position:-18757px 0}.emoticon-factory{background-position:-18789px 0}.emoticon-tokyo_tower{background-position:-18821px 0}.emoticon-japan{background-position:-18853px 0}.emoticon-mount_fuji{background-position:-18885px 0}.emoticon-sunrise_over_mountains{background-position:-18917px 0}.emoticon-sunrise{background-position:-18949px 0}.emoticon-stars,.emoticon-themoreyouknow,.emoticon-tmyk{background-position:-18981px 0}.emoticon-statue_of_liberty{background-position:-19013px 0}.emoticon-bridge_at_night{background-position:-19045px 0}.emoticon-carousel_horse{background-position:-19077px 0}.emoticon-rainbow{background-position:-19109px 0}.emoticon-ferris_wheel{background-position:-19141px 0}.emoticon-fountain{background-position:-19173px 0}.emoticon-roller_coaster{background-position:-19205px 0}.emoticon-ship{background-position:-19237px 0}.emoticon-speedboat{background-position:-19269px 0}.emoticon-boat{background-position:-19301px 0}.emoticon-sailboat{background-position:-19333px 0}.emoticon-rowboat{background-position:-19365px 0}.emoticon-anchor{background-position:-19397px 0}.emoticon-rocket{background-position:-19429px 0}.emoticon-airplane{background-position:-19461px 0}.emoticon-helicopter{background-position:-19493px 0}.emoticon-steam_locomotive{background-position:-19525px 0}.emoticon-tram{background-position:-19557px 0}.emoticon-mountain_railway{background-position:-19589px 0}.emoticon-bike{background-position:-19621px 0}.emoticon-aerial_tramway{background-position:-19653px 0}.emoticon-suspension_railway{background-position:-19685px 0}.emoticon-mountain_cableway{background-position:-19717px 0}.emoticon-tractor{background-position:-19749px 0}.emoticon-blue_car{background-position:-19781px 0}.emoticon-oncoming_automobile{background-position:-19813px 0}.emoticon-car{background-position:-19845px 0}.emoticon-red_car{background-position:-19877px 0}.emoticon-taxi{background-position:-19909px 0}.emoticon-oncoming_taxi{background-position:-19941px 0}.emoticon-articulated_lorry{background-position:-19973px 0}.emoticon-bus{background-position:-20005px 0}.emoticon-oncoming_bus{background-position:-20037px 0}.emoticon-rotating_light{background-position:-20069px 0}.emoticon-police_car{background-position:-20101px 0}.emoticon-oncoming_police_car{background-position:-20133px 0}.emoticon-fire_engine{background-position:-20165px 0}.emoticon-ambulance{background-position:-20197px 0}.emoticon-minibus{background-position:-20229px 0}.emoticon-truck{background-position:-20261px 0}.emoticon-train{background-position:-20293px 0}.emoticon-station{background-position:-20325px 0}.emoticon-train2{background-position:-20357px 0}.emoticon-bullettrain_front{background-position:-20389px 0}.emoticon-bullettrain_side{background-position:-20421px 0}.emoticon-light_rail{background-position:-20453px 0}.emoticon-monorail{background-position:-20485px 0}.emoticon-railway_car{background-position:-20517px 0}.emoticon-trolleybus{background-position:-20549px 0}.emoticon-ticket{background-position:-20581px 0}.emoticon-fuelpump{background-position:-20613px 0}.emoticon-vertical_traffic_light{background-position:-20645px 0}.emoticon-traffic_light{background-position:-20677px 0}.emoticon-warning{background-position:-20709px 0}.emoticon-construction{background-position:-20741px 0}.emoticon-beginner{background-position:-20773px 0}.emoticon-atm{background-position:-20805px 0}.emoticon-slot_machine{background-position:-20837px 0}.emoticon-busstop{background-position:-20869px 0}.emoticon-barber{background-position:-20901px 0}.emoticon-hotsprings{background-position:-20933px 0}.emoticon-checkered_flag{background-position:-20965px 0}.emoticon-crossed_flags{background-position:-20997px 0}.emoticon-izakaya_lantern{background-position:-21029px 0}.emoticon-moyai{background-position:-21061px 0}.emoticon-circus_tent{background-position:-21093px 0}.emoticon-performing_arts{background-position:-21125px 0}.emoticon-round_pushpin{background-position:-21157px 0}.emoticon-triangular_flag_on_post{background-position:-21189px 0}.emoticon-jp{background-position:-21221px 0}.emoticon-kr{background-position:-21253px 0}.emoticon-cn{background-position:-21285px 0}.emoticon-us{background-position:-21317px 0}.emoticon-fr{background-position:-21349px 0}.emoticon-es{background-position:-21381px 0}.emoticon-it{background-position:-21413px 0}.emoticon-ru{background-position:-21445px 0}.emoticon-gb{background-position:-21477px 0}.emoticon-uk{background-position:-21509px 0}.emoticon-de{background-position:-21541px 0}.emoticon-one{background-position:-21573px 0}.emoticon-two{background-position:-21605px 0}.emoticon-three{background-position:-21637px 0}.emoticon-four{background-position:-21669px 0}.emoticon-five{background-position:-21701px 0}.emoticon-six{background-position:-21733px 0}.emoticon-seven{background-position:-21765px 0}.emoticon-eight{background-position:-21797px 0}.emoticon-nine{background-position:-21829px 0}.emoticon-keycap_ten{background-position:-21861px 0}.emoticon-1234{background-position:-21893px 0}.emoticon-zero{background-position:-21925px 0}.emoticon-hash{background-position:-21957px 0}.emoticon-symbols{background-position:-21989px 0}.emoticon-arrow_backward{background-position:-22021px 0}.emoticon-arrow_down{background-position:-22053px 0}.emoticon-arrow_forward{background-position:-22085px 0}.emoticon-arrow_left{background-position:-22117px 0}.emoticon-capital_abcd{background-position:-22149px 0}.emoticon-abcd{background-position:-22181px 0}.emoticon-abc{background-position:-22213px 0}.emoticon-arrow_lower_left{background-position:-22245px 0}.emoticon-arrow_lower_right{background-position:-22277px 0}.emoticon-arrow_right{background-position:-22309px 0}.emoticon-arrow_up{background-position:-22341px 0}.emoticon-arrow_upper_left{background-position:-22373px 0}.emoticon-arrow_upper_right{background-position:-22405px 0}.emoticon-arrow_double_down{background-position:-22437px 0}.emoticon-arrow_double_up{background-position:-22469px 0}.emoticon-arrow_down_small{background-position:-22501px 0}.emoticon-arrow_heading_down{background-position:-22533px 0}.emoticon-arrow_heading_up{background-position:-22565px 0}.emoticon-leftwards_arrow_with_hook{background-position:-22597px 0}.emoticon-arrow_right_hook{background-position:-22629px 0}.emoticon-left_right_arrow{background-position:-22661px 0}.emoticon-arrow_up_down{background-position:-22693px 0}.emoticon-arrow_up_small{background-position:-22725px 0}.emoticon-arrows_clockwise{background-position:-22757px 0}.emoticon-arrows_counterclockwise{background-position:-22789px 0}.emoticon-rewind{background-position:-22821px 0}.emoticon-fast_forward{background-position:-22853px 0}.emoticon-information_source{background-position:-22885px 0}.emoticon-ok{background-position:-22917px 0}.emoticon-twisted_rightwards_arrows{background-position:-22949px 0}.emoticon-repeat{background-position:-22981px 0}.emoticon-repeat_one{background-position:-23013px 0}.emoticon-new{background-position:-23045px 0}.emoticon-top{background-position:-23077px 0}.emoticon-up{background-position:-23109px 0}.emoticon-cool{background-position:-23141px 0}.emoticon-free{background-position:-23173px 0}.emoticon-ng{background-position:-23205px 0}.emoticon-cinema{background-position:-23237px 0}.emoticon-koko{background-position:-23269px 0}.emoticon-signal_strength{background-position:-23301px 0}.emoticon-u5272{background-position:-23333px 0}.emoticon-u5408{background-position:-23365px 0}.emoticon-u55b6{background-position:-23397px 0}.emoticon-u6307{background-position:-23429px 0}.emoticon-u6708{background-position:-23461px 0}.emoticon-u6709{background-position:-23493px 0}.emoticon-u6e80{background-position:-23525px 0}.emoticon-u7121{background-position:-23557px 0}.emoticon-u7533{background-position:-23589px 0}.emoticon-u7a7a{background-position:-23621px 0}.emoticon-u7981{background-position:-23653px 0}.emoticon-sa{background-position:-23685px 0}.emoticon-restroom{background-position:-23717px 0}.emoticon-mens{background-position:-23749px 0}.emoticon-womens{background-position:-23781px 0}.emoticon-baby_symbol{background-position:-23813px 0}.emoticon-no_smoking{background-position:-23845px 0}.emoticon-parking{background-position:-23877px 0}.emoticon-wheelchair{background-position:-23909px 0}.emoticon-metro{background-position:-23941px 0}.emoticon-baggage_claim{background-position:-23973px 0}.emoticon-accept{background-position:-24005px 0}.emoticon-wc{background-position:-24037px 0}.emoticon-potable_water{background-position:-24069px 0}.emoticon-put_litter_in_its_place{background-position:-24101px 0}.emoticon-secret{background-position:-24133px 0}.emoticon-congratulations{background-position:-24165px 0}.emoticon-m{background-position:-24197px 0}.emoticon-passport_control{background-position:-24229px 0}.emoticon-left_luggage{background-position:-24261px 0}.emoticon-customs{background-position:-24293px 0}.emoticon-ideograph_advantage{background-position:-24325px 0}.emoticon-cl{background-position:-24357px 0}.emoticon-sos{background-position:-24389px 0}.emoticon-id{background-position:-24421px 0}.emoticon-no_entry_sign{background-position:-24453px 0}.emoticon-underage{background-position:-24485px 0}.emoticon-no_mobile_phones{background-position:-24517px 0}.emoticon-do_not_litter{background-position:-24549px 0}.emoticon-non\-potable_water{background-position:-24581px 0}.emoticon-no_bicycles{background-position:-24613px 0}.emoticon-no_pedestrians{background-position:-24645px 0}.emoticon-children_crossing{background-position:-24677px 0}.emoticon-no_entry{background-position:-24709px 0}.emoticon-eight_spoked_asterisk{background-position:-24741px 0}.emoticon-eight_pointed_black_star{background-position:-24773px 0}.emoticon-heart_decoration{background-position:-24805px 0}.emoticon-vs{background-position:-24837px 0}.emoticon-vibration_mode{background-position:-24869px 0}.emoticon-mobile_phone_off{background-position:-24901px 0}.emoticon-chart{background-position:-24933px 0}.emoticon-currency_exchange{background-position:-24965px 0}.emoticon-aries{background-position:-24997px 0}.emoticon-taurus{background-position:-25029px 0}.emoticon-gemini{background-position:-25061px 0}.emoticon-cancer{background-position:-25093px 0}.emoticon-leo{background-position:-25125px 0}.emoticon-virgo{background-position:-25157px 0}.emoticon-libra{background-position:-25189px 0}.emoticon-scorpius{background-position:-25221px 0}.emoticon-sagittarius{background-position:-25253px 0}.emoticon-capricorn{background-position:-25285px 0}.emoticon-aquarius{background-position:-25317px 0}.emoticon-pisces{background-position:-25349px 0}.emoticon-ophiuchus{background-position:-25381px 0}.emoticon-six_pointed_star{background-position:-25413px 0}.emoticon-negative_squared_cross_mark{background-position:-25445px 0}.emoticon-a{background-position:-25477px 0}.emoticon-b{background-position:-25509px 0}.emoticon-ab{background-position:-25541px 0}.emoticon-o2{background-position:-25573px 0}.emoticon-diamond_shape_with_a_dot_inside{background-position:-25605px 0}.emoticon-recycle{background-position:-25637px 0}.emoticon-end{background-position:-25669px 0}.emoticon-on{background-position:-25701px 0}.emoticon-soon{background-position:-25733px 0}.emoticon-clock1{background-position:-25765px 0}.emoticon-clock130{background-position:-25797px 0}.emoticon-clock10{background-position:-25829px 0}.emoticon-clock1030{background-position:-25861px 0}.emoticon-clock11{background-position:-25893px 0}.emoticon-clock1130{background-position:-25925px 0}.emoticon-clock12{background-position:-25957px 0}.emoticon-clock1230{background-position:-25989px 0}.emoticon-clock2{background-position:-26021px 0}.emoticon-clock230{background-position:-26053px 0}.emoticon-clock3{background-position:-26085px 0}.emoticon-clock330{background-position:-26117px 0}.emoticon-clock4{background-position:-26149px 0}.emoticon-clock430{background-position:-26181px 0}.emoticon-clock5{background-position:-26213px 0}.emoticon-clock530{background-position:-26245px 0}.emoticon-clock6{background-position:-26277px 0}.emoticon-clock630{background-position:-26309px 0}.emoticon-clock7{background-position:-26341px 0}.emoticon-clock730{background-position:-26373px 0}.emoticon-clock8{background-position:-26405px 0}.emoticon-clock830{background-position:-26437px 0}.emoticon-clock9{background-position:-26469px 0}.emoticon-clock930{background-position:-26501px 0}.emoticon-heavy_dollar_sign{background-position:-26533px 0}.emoticon-copyright{background-position:-26565px 0}.emoticon-registered{background-position:-26597px 0}.emoticon-tm{background-position:-26629px 0}.emoticon-x{background-position:-26661px 0}.emoticon-heavy_exclamation_mark{background-position:-26693px 0}.emoticon-bangbang{background-position:-26725px 0}.emoticon-interrobang{background-position:-26757px 0}.emoticon-o{background-position:-26789px 0}.emoticon-heavy_multiplication_x{background-position:-26821px 0}.emoticon-heavy_plus_sign{background-position:-26853px 0}.emoticon-heavy_minus_sign{background-position:-26885px 0}.emoticon-heavy_division_sign{background-position:-26917px 0}.emoticon-white_flower{background-position:-26949px 0}.emoticon-100{background-position:-26981px 0}.emoticon-heavy_check_mark{background-position:-27013px 0}.emoticon-ballot_box_with_check{background-position:-27045px 0}.emoticon-radio_button{background-position:-27077px 0}.emoticon-link{background-position:-27109px 0}.emoticon-curly_loop{background-position:-27141px 0}.emoticon-wavy_dash{background-position:-27173px 0}.emoticon-part_alternation_mark{background-position:-27205px 0}.emoticon-trident{background-position:-27237px 0}.emoticon-black_large_square{background-position:-27269px 0}.emoticon-white_large_square{background-position:-27301px 0}.emoticon-white_check_mark{background-position:-27333px 0}.emoticon-black_square{background-position:-27268px 0}.emoticon-white_square{background-position:-27301px 0}.emoticon-black_square_button{background-position:-27365px 0}.emoticon-white_square_button{background-position:-27397px 0}.emoticon-black_circle{background-position:-27429px 0}.emoticon-white_circle{background-position:-27461px 0}.emoticon-red_circle{background-position:-27493px 0}.emoticon-large_blue_circle{background-position:-27525px 0}.emoticon-large_blue_diamond{background-position:-27557px 0}.emoticon-large_orange_diamond{background-position:-27589px 0}.emoticon-small_blue_diamond{background-position:-27621px 0}.emoticon-small_orange_diamond{background-position:-27653px 0}.emoticon-small_red_triangle{background-position:-27685px 0}.emoticon-small_red_triangle_down{background-position:-27717px 0}.emoticon-shipit{background-position:-27749px 0}</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+<div id="jump-to-line" style="display:none">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.18676s from unicorn-3621034903-sbspz">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-X+Q/xqnlEgxCczSjjpp2AUGGgqM5gcBzhRQ0p+EAUEk=" src="https://assets-cdn.github.com/assets/frameworks-5fe43fc6a9e5120c427334a38e9a7601418682a33981c073851434a7e1005049.js"></script>
+    <script async="async" crossorigin="anonymous" integrity="sha256-a1msTed9Scg4mSqBMf2LHf/Jn3XOsj50Eo+LCXXjk/k=" src="https://assets-cdn.github.com/assets/github-6b59ac4de77d49c838992a8131fd8b1dffc99f75ceb23e74128f8b0975e393f9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+

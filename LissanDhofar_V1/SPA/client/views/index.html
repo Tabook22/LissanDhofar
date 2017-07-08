@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="ar-om" dir="rtl">
+<html lang="ar-om" dir="rtl" ng-app="mainApp">
 <head>
     <base href="/" />
     <meta charset="utf-8" />
@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="spa/client/public/css/responsive.css">
     <!--Jquery-->
     <script src="../../../Scripts/jquery-1.10.2.min.js"></script>
-    <script src="../../../Scripts/jquery-1.10.2.min.js"></script>
     <!-- Owl Carsousle -->
     <script src="spa/client/public/js/owl.carousel.min.js"></script>
     <!--angular library-->
@@ -29,6 +28,7 @@
     <script src="../../../Scripts/angular-ui/ui-bootstrap.min.js"></script>
     <!--customer javascript-->
     <script src="spa/client/myApp.js"></script>
+    <script src="spa/client/public/js/angular.audio.js"></script>
     <script src="spa/client/controllers/homeController.js"></script>
     <script src="spa/client/controllers/articleController.js"></script>ipt>
 
@@ -44,7 +44,7 @@
     <script src="spa/client/public/js/main.js"></script>
 
 </head>
-<body ng-app="mainApp">
+<body>
     <!--
     header-img start
     ============================== -->
@@ -90,7 +90,8 @@
                                         <li><a href="#contact-us">إتصل بنا</a></li>
                                         <li><a href="#blog">متابعات</a></li>
                                         <li><a href="#voice">نطق الحروف </a></li>
-                                        <li><a ui-sref="letters">حروف الجبالية</a></li>
+                                        <li ng-controller="audioCtrl as ctrl"><a  ng-click="ctrl.goLetters()">حروف الجبالية</a></li>
+                                        <!--<li><a ui-sref="letters"></a></li>-->
                                         <li><a href="#blog">مستخلصات من المعجم</a></li>
                                         <li><a ui-sref="dic">هذا المعجم</a></li>
                                         <!--<li><a href="#blog">لماذا الموقع</a></li>-->
