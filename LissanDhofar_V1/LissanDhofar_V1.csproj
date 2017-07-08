@@ -247,6 +247,8 @@
     <Content Include="Scripts\SPA\Dictionary\introDetailView.html" />
     <Content Include="Scripts\SPA\Dictionary\introView.html" />
     <Content Include="Scripts\SPA\Dictionary\letterView.html" />
+    <Content Include="Scripts\SPA\Dictionary\letterDetailView.html" />
+    <Content Include="Scripts\SPA\Dictionary\voiceView.html" />
     <Content Include="Scripts\SPA\Home\indexCtrl.js" />
     <Content Include="Scripts\SPA\Home\indexServ.js" />
     <Content Include="Scripts\SPA\Home\indexView.html" />
